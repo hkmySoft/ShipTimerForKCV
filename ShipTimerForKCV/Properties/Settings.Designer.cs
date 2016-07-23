@@ -133,7 +133,7 @@ namespace ShipTimerForKCV.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool sandboxSetting {
             get {
                 return ((bool)(this["sandboxSetting"]));
