@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ShipTImerForKCV.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GoogleUserID" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DeviceID" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ClientID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">596857451248-oqsr086q468pte2ejvtt9qpaf9k6lqud.apps.googleusercontent.com</Value>
+    </Setting>
+    <Setting Name="ClientSecret" Type="System.String" Scope="User">
+      <Value Profile="(Default)">xHO3vkeIermn6rr9dL-tQkWp</Value>
+    </Setting>
+    <Setting Name="IdentityPoolID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">us-east-1:affc356e-7b3a-4ea0-b471-d4682b912387</Value>
+    </Setting>
+    <Setting Name="PlatformApplicationArn" Type="System.String" Scope="User">
+      <Value Profile="(Default)">arn:aws:sns:us-east-1:348287904183:app/APNS_SANDBOX/ShipTimer_SANDBOX</Value>
+    </Setting>
+    <Setting Name="EnseiSetting" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NyukyoSetting" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="BuildSetting" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="sandboxSetting" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EndPointArn" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,113 @@
+﻿<UserControl x:Class="ShipTimerForKCV.Views.MainToolView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ShipTimerForKCV.ViewModels"
+             mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance local:LogViewModel}"
+             d:DesignHeight="400" d:DesignWidth="500">
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled"
+				  VerticalScrollBarVisibility="Auto"
+				  PanningMode="Both">
+        <StackPanel Margin="0,0,0,0">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Margin="10,10,0,0" Text= "自動タイマーセット" FontSize="14"/>
+                <Button Margin="15,10,0,0"
+                        Padding="3,3"
+                        Width="70"
+                        x:Name="deleteBtn" VerticalAlignment="Top" 
+        		        Click="deleteBtn_Click" Content="認証解除"
+                        Visibility="Hidden"/>
+            </StackPanel>
+            <Button Padding="12,8"
+        		    Margin="25,10,25,0" 
+                    x:Name="deviceRegistBtn" VerticalAlignment="Top" 
+        		    Click="deviceRegistBtn_Click" Content="デバイス認証"/>
+            <Button Padding="12,8"
+        		    Margin="25,10,25,0" 
+                    x:Name="deviceRegistedBtn" VerticalAlignment="Top" 
+        		    Content="デバイス認証済" Visibility="Collapsed" Background="#FF286414" Foreground="White" IsEnabled="False" />
+            <Button Padding="12,8"
+        		    Margin="25,10,25,0" 
+                    x:Name="deviceRegistFailButton" VerticalAlignment="Top" 
+        		    Click="deviceRegistFailBtn_Click" Content="デバイス認証失敗" Visibility="Collapsed" Background="#FFFF534F" Foreground="White" />
+            <TextBlock Margin="10,10,10,10" Text= "環境設定" FontSize="14" />
+            <Border Grid.Row="0"
+                    Grid.RowSpan="2"
+                    Grid.Column="3"
+                    Margin="10,0,10,0" 
+                    BorderBrush="#FF444242" BorderThickness="1"/>
+            <StackPanel x:Name="EnseiArea" Orientation="Horizontal" Visibility="Hidden">
+                <TextBlock Margin="20,5,0,5"
+                           Padding="30,3"
+                           Text= "1" 
+                           FontSize="12" />
+                <TextBlock Margin="0,5,0,5"
+                           Padding="30,3"
+                           Text= "遠征" 
+                           FontSize="12" />
+                <Button Margin="40,5,10,5"
+                        Padding="30,3"
+                        Width="100"
+                        x:Name="EnseiBtn" VerticalAlignment="Top" 
+        		        Click="EnseiBtn_Click" Content="通知"/>
+            </StackPanel>
+            <Border Grid.Row="0"
+                    Grid.RowSpan="2"
+                    Grid.Column="3"
+                    Margin="10,0,10,0" 
+                    BorderBrush="#FF444242" BorderThickness="1"/>
+            <StackPanel x:Name="NyukyoArea" Orientation="Horizontal" Visibility="Hidden">
+                <TextBlock Margin="20,5,0,5"
+                           Padding="30,3"
+                           Text= "2" 
+                           FontSize="12" />
+                <TextBlock Margin="0,5,0,5"
+                           Padding="30,3"
+                           Text= "入渠" 
+                           FontSize="12" />
+                <Button Margin="40,5,10,5"
+                        Padding="30,3"
+                        Width="100"
+                        x:Name="NyukyoBtn" VerticalAlignment="Top" 
+        		        Click="NyukyoBtn_Click" Content="通知"/>
+            </StackPanel>
+            <Border Grid.Row="0"
+                    Grid.RowSpan="2"
+                    Grid.Column="3"
+                    Margin="10,0,10,0" 
+                    BorderBrush="#FF444242" BorderThickness="1"/>
+            <StackPanel x:Name="BuildArea" Orientation="Horizontal" Visibility="Hidden">
+                <TextBlock Margin="20,5,0,5"
+                           Padding="30,3"
+                           Text= "3" 
+                           FontSize="12" />
+                <TextBlock Margin="0,5,0,5"
+                           Padding="30,3"
+                           Text= "建造" 
+                           FontSize="12" />
+                <Button Margin="40,5,10,5"
+                        Padding="30,3"
+                        Width="100"
+                        x:Name="BuildBtn" VerticalAlignment="Top" 
+        		        Click="BuildBtn_Click" Content="通知"/>
+            </StackPanel>
+            <Border Grid.Row="0"
+                    Grid.RowSpan="2"
+                    Grid.Column="3"
+                    Margin="10,0,10,0" 
+                    BorderBrush="#FF444242" BorderThickness="1"/>
+            <TextBox x:Name="logTextBox"
+                     AcceptsReturn="True" 
+                     Height="100"
+                     IsReadOnly="True"
+                     Margin="10,10,10,0" 
+                     VerticalScrollBarVisibility="Auto"
+                     BorderBrush="{x:Null}" Background="{x:Null}"
+                     Text="{Binding LogText}" Foreground="White"/>
+        </StackPanel>
+
+    </ScrollViewer>
+
+</UserControl>
