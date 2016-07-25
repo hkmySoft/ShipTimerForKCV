@@ -1,15 +1,16 @@
-# ShipTimerForKCV
+ShipTimerForKCV
+======================
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/hkmySoft/ShipTimerForKCV/master/LICENSE)
 <!--[![Release]()]()-->
 
 iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id684642180?l=ja&ls=1&mt=8)」に遠征・入渠・建造時間を自動セットする  
 [KanColleViewer](http://grabacr.net/kancolleviewer)用プラグインです。
 
-### 機能
+## 機能
 * 遠征・入渠・建造の完了時間をiPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id684642180?l=ja&ls=1&mt=8)」に自動連携します。
 * 連携する項目は設定にて変更可能です。
 
-### 必要動作環境
+## 必要動作環境
 
 #### KanColleViewer （提督業も忙しい！）
 * **[Ver 4.6](http://grabacr.net/kancolleviewer)** 以降
@@ -19,10 +20,10 @@ iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id
 * **[Ver 10.0](https://itunes.apple.com/jp/app/shiptimer/id684642180?l=ja&ls=1&mt=8)** 以降
 * iOS 7 以上
 
-#### その他
+## その他
 * Googleアカウント(デバイス認証に使用します)
 
-### インストール
+## インストール
 
 * "ShipTimerForKCV.dll"をKanColleViewerの"Plugins"ディレクトリに移動してください。
 * 以下のDLLを **すべて** KanColleViewer.exeと同じディレクトリに移動してください。(一つでも足りないと動作しません。)
@@ -37,21 +38,21 @@ iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id
  * Newtonsoft.Json.dll
  * Zlib.Portable.dll
 
-### 使い方
+## 使い方
 
 
-### ライセンス
+## ライセンス
 
 * [The MIT License (MIT)](LICENSE)  
 
 
-### ダウンロード
+## ダウンロード
 
  [ShipTimerForKCV - GitHub Releases Page]()
 
 
 
-### お問い合わせ/機能要望/バグ報告
+## お問い合わせ/機能要望/バグ報告
 - Twitterから
  - [twitter.com/Kozeni_50yen](https://twitter.com/Kozeni_50yen)
 - GitHubから
@@ -59,7 +60,7 @@ iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id
 
 
 
-### 使用ライブラリ
+## 使用ライブラリ
 
 以下のライブラリを使用して開発を行っています。
 
