@@ -8,7 +8,7 @@ iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id
 
 ## 機能
 * 遠征・入渠・建造の完了時間をiPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id684642180?l=ja&ls=1&mt=8)」に自動連携します。
-* 連携する項目は設定にて変更可能です。
+* 連携する項目は設定にて変更可能です。  
 
 ## 必要動作環境
 
@@ -21,7 +21,7 @@ iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id
 * iOS 7 以上
 
 #### その他
-* Googleアカウント(デバイス認証に使用します)
+* Googleアカウント(デバイス認証に使用します)  
 
 ## インストール
 
@@ -36,9 +36,10 @@ iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id
  * Google.Apis.PlatformServices.dll
  * Google.Apis.Plus.v1.dll
  * Newtonsoft.Json.dll
- * Zlib.Portable.dll
+ * Zlib.Portable.dll  
 
 ## 使い方
+
 
 
 ## ライセンス
@@ -48,7 +49,7 @@ iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id
 
 ## ダウンロード
 
- [ShipTimerForKCV - GitHub Releases Page]()
+ [ShipTimerForKCV - GitHub Releases Page]()  
 
 
 
@@ -56,7 +57,7 @@ iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id
 - Twitterから
  - [twitter.com/Kozeni_50yen](https://twitter.com/Kozeni_50yen)
 - GitHubから
- - [github.com/hkmySoft/ShipTimerForKCV/issues/new](https://github.com/hkmySoft/ShipTimerForKCV/issues/new)
+ - [github.com/hkmySoft/ShipTimerForKCV/issues/new](https://github.com/hkmySoft/ShipTimerForKCV/issues/new)  
 
 
 
