@@ -20,7 +20,7 @@ iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id
 * **[Ver 10.0](https://itunes.apple.com/jp/app/shiptimer/id684642180?l=ja&ls=1&mt=8)** 以降
 * iOS 7 以上
 
-## その他
+#### その他
 * Googleアカウント(デバイス認証に使用します)
 
 ## インストール
