@@ -1,7 +1,8 @@
 ShipTimerForKCV
 ======================
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/hkmySoft/ShipTimerForKCV/master/LICENSE)
-<!--[![Release]()]()-->
+
+
 
 iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id684642180?l=ja&ls=1&mt=8)」に遠征・入渠・建造時間を自動セットする  
 [KanColleViewer](http://grabacr.net/kancolleviewer)用プラグインです。
@@ -25,18 +26,19 @@ iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id
 
 ## インストール
 
-* "ShipTimerForKCV.dll"をKanColleViewerの"Plugins"ディレクトリに移動してください。
-* 以下のDLLを **すべて** KanColleViewer.exeと同じディレクトリに移動してください。(一つでも足りないと動作しません。)
- * AWSSDK.dll
- * BouncyCastle.Crypto.dll
- * Google.Apis.Auth.dll
- * Google.Apis.Auth.PlatformServices.dll
- * Google.Apis.Core.dll
- * Google.Apis.dll
- * Google.Apis.PlatformServices.dll
- * Google.Apis.Plus.v1.dll
- * Newtonsoft.Json.dll
- * Zlib.Portable.dll  
+* ダウンロードした`ShipTimerForKCV.zip`ファイルを展開し作成された`ShipTimerForKCV`フォルダの`Plugins`配下にある`ShipTimerForKCV.dll`を  
+KanColleViewerの`Plugins`ディレクトリに移動してください。
+* 展開された`ShipTimerForKCV`フォルダの直下にある、以下のDLLを **すべて** KanColleViewer.exeと同じディレクトリに移動してください。(一つでも足りないと動作しません。)
+ * `AWSSDK.dll`
+ * `BouncyCastle.Crypto.dll`
+ * `Google.Apis.Auth.dll`
+ * `Google.Apis.Auth.PlatformServices.dll`
+ * `Google.Apis.Core.dll`
+ * `Google.Apis.dll`
+ * `Google.Apis.PlatformServices.dll`
+ * `Google.Apis.Plus.v1.dll`
+ * `Newtonsoft.Json.dll`
+ * `Zlib.Portable.dll`  
 
 ## 使い方
 **必ず先にiPhone側の操作を完了させてください**
@@ -124,7 +126,7 @@ iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id
 #### [Rx (Reactive Extensions)](https://rx.codeplex.com/)
 
 * **ライセンス :** Apache License Version 2.0
-* **ライセンス全文 :** [licenses/ApacheLicense2.0.txt](licenses/ApacheLicense2.0.txt)
+* **ライセンス全文 :** [licenses/ApacheLicense2.0.txt](licenses/Apache.txt)
 
 #### [StatefulModel](http://ugaya40.hateblo.jp/entry/StatefulModel)
 
@@ -139,9 +141,9 @@ iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id
 #### [AWS SDK for .NET](https://aws.amazon.com/jp/sdk-for-net/)
 
 * **ライセンス :** Apache License 2.0
-* **ライセンス全文 :** [licenses/ApacheLicense2.0.txt](licenses/ApacheLicense2.0.txt)
+* **ライセンス全文 :** [licenses/ApacheLicense2.0.txt](licenses/Apache.txt)
 
 #### [Google APIs from .NET](https://developers.google.com/api-client-library/dotnet/)
 
 * **ライセンス :** Apache License 2.0
-* **ライセンス全文 :** [licenses/ApacheLicense2.0.txt](licenses/ApacheLicense2.0.txt)
+* **ライセンス全文 :** [licenses/ApacheLicense2.0.txt](licenses/Apache.txt)

@@ -217,6 +217,22 @@
     <Analyzer Include="..\packages\KanColleViewer.PluginAnalyzer.1.1.1.0\analyzers\KanColleViewer.PluginAnalyzer.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>mkdir $(ProjectName)\Plugins
+Copy /Y AWSSDK.dll $(ProjectName)\
+Copy /Y BouncyCastle.Crypto.dll $(ProjectName)\
+Copy /Y Google.Apis.Auth.dll $(ProjectName)\
+Copy /Y Google.Apis.Auth.PlatformServices.dll $(ProjectName)\
+Copy /Y Google.Apis.Core.dll $(ProjectName)\
+Copy /Y Google.Apis.dll $(ProjectName)\
+Copy /Y Google.Apis.PlatformServices.dll $(ProjectName)\
+Copy /Y Google.Apis.Plus.v1.dll $(ProjectName)\
+Copy /Y Newtonsoft.Json.dll $(ProjectName)\
+Copy /Y Zlib.Portable.dll $(ProjectName)\
+Copy /Y $(TargetFileName) $(ProjectName)\Plugins\
+powershell compress-archive -Force $(ProjectName) $(SolutionDir)$(ProjectName)-1.0.0.zip
+rd /s /q $(ProjectName)</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

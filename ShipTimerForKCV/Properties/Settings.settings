@@ -18,7 +18,7 @@
       <Value Profile="(Default)">us-east-1:affc356e-7b3a-4ea0-b471-d4682b912387</Value>
     </Setting>
     <Setting Name="PlatformApplicationArn" Type="System.String" Scope="User">
-      <Value Profile="(Default)">arn:aws:sns:us-east-1:348287904183:app/APNS_SANDBOX/ShipTimer_SANDBOX</Value>
+      <Value Profile="(Default)">arn:aws:sns:us-east-1:348287904183:app/APNS/ShipTimer</Value>
     </Setting>
     <Setting Name="EnseiSetting" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>

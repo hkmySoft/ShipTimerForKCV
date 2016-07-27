@@ -85,7 +85,7 @@ namespace ShipTimerForKCV.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("arn:aws:sns:us-east-1:348287904183:app/APNS_SANDBOX/ShipTimer_SANDBOX")]
+        [global::System.Configuration.DefaultSettingValueAttribute("arn:aws:sns:us-east-1:348287904183:app/APNS/ShipTimer")]
         public string PlatformApplicationArn {
             get {
                 return ((string)(this["PlatformApplicationArn"]));

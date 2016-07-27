@@ -167,7 +167,7 @@ namespace ShipTimerForKCV.Views
                 return parent.mngDeviceButtn_Unauth();
             });
             // エラーメッセージの存在判定
-            if (Message.Length == 0)
+            if (Message.Equals(ShipTimerForKCV.MES_DEVICE_UNAUTH))
             {
                 // ボタンを初期化
                 // 登録ボタン表示
@@ -182,6 +182,8 @@ namespace ShipTimerForKCV.Views
                 // 表示を戻す
                 deleteBtn.Content = "認証解除";
                 deleteBtn.IsEnabled = true;
+                // ログ表示
+                logTextBox.Text += Message;
             }
             else
             {

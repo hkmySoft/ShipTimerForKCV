@@ -48,6 +48,9 @@ namespace ShipTimerForKCV
         // == メッセージ ==
         private const string MES_GOOGLE_AUTH = "Googleの認証に失敗しました。有効なGoogleアカウントでログインし、アクセスの「許可」を行ってください。";
         private const string MES_DEVICE_AUTH = "iPhoneの認証に失敗しました。先にiPhone版「艦これタイマー」から認証を行ってください。";
+        public const string MES_DEVICE_UNAUTH = "デバイスの解除を行いました。\r\nGoogleの認証まで解除する場合は\r\n" +
+                                                "https://security.google.com/settings/security/permissions から削除を行い、\r\n" +
+                                                "C:\\Users\\{ユーザ名}\\AppData\\Roaming\\Api.Plus.Storeフォルダを削除してください";                                                
         private const string MES_LIB_NOT_FOUND = "デバイス処理に失敗しました。\r\nKanColleViewer.exeと同じフォルダ内に以下のファイルがあることを確認してください。\r\n" +
                                                 "AWSSDK.dll\r\n" +
                                                 "BouncyCastle.Crypto.dll\r\n" +
@@ -597,7 +600,7 @@ namespace ShipTimerForKCV
                     // エンドポイントの削除を実施
                     DeleteEndPoint();
                 }
-                return "";
+                return MES_DEVICE_UNAUTH;
 
             }
             catch (FileNotFoundException)
