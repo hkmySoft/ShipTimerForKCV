@@ -56,20 +56,18 @@ KanColleViewerの`Plugins`ディレクトリに移動してください。
 1. 「デバイス認証完了」と表示されたらiPhone側の操作は完了です。  
 <img src="https://raw.githubusercontent.com/hkmySoft/img/master/HowToUse_05.png" width="180" height="320" border="0" alt="HowToUse_05" />
 
-1. 「提督業も忙しい！」を起動して「ツール＞艦これタイマー」を選択  
-<img src="https://raw.githubusercontent.com/hkmySoft/img/master/HowToUse_10.png" width="356" height="434" border="0" alt="HowToUse_10" />
-
-1. 「デバイス認証」を選択  
-<img src="https://raw.githubusercontent.com/hkmySoft/img/master/HowToUse_11.png" width="250" height="217" border="0" alt="HowToUse_11" />
+1. 「提督業も忙しい！」を起動して「ツール＞艦これタイマー」を選択し、「デバイス認証」を選択
+<img src="https://raw.githubusercontent.com/hkmySoft/img/master/HowToUse_10.png" border="0" alt="HowToUse_10" />
 
 1. ブラウザが立ち上がるので「許可」を選択  
 ※ブラウザの立ち上げに失敗した場合は「デバイス認証失敗」となるので再度ボタンを押してください。  
-<img src="https://raw.githubusercontent.com/hkmySoft/img/master/HowToUse_12.png" width="250" height="217" border="0" alt="HowToUse_12" />
+<img src="https://raw.githubusercontent.com/hkmySoft/img/master/HowToUse_11.png" width="250" height="217" border="0" alt="HowToUse_11" />
 
 1. ブラウザを閉じます。自動で閉じられません。  
+<img src="https://raw.githubusercontent.com/hkmySoft/img/master/HowToUse_12.png" width="250" height="217" border="0" alt="HowToUse_12" />
 
 1. 「デバイス認証完了」と表示されたら設定は完了です。  
-<img src="https://raw.githubusercontent.com/hkmySoft/img/master/HowToUse_13.png" width="356" height="434" border="0" alt="HowToUse_13" />
+<img src="https://raw.githubusercontent.com/hkmySoft/img/master/HowToUse_13.png" border="0" alt="HowToUse_13" />
 
 ## 免責事項
 * 事前通知なしにサービスを止めることがあります。
@@ -85,7 +83,7 @@ KanColleViewerの`Plugins`ディレクトリに移動してください。
 
 ## ダウンロード
 
- [ShipTimerForKCV - GitHub Releases Page]()  
+ [ShipTimerForKCV - GitHub Releases Page](https://github.com/hkmySoft/ShipTimerForKCV/releases/latest)  
 
 
 
