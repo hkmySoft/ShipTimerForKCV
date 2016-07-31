@@ -1,4 +1,4 @@
-ShipTimerForKCV
+艦これタイマー連携ツール for 提督業も忙しい！ - ShipTimerForKCV
 ======================
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/hkmySoft/ShipTimerForKCV/master/LICENSE)
 
