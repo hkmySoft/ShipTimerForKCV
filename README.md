@@ -28,6 +28,8 @@ iPhone版「[艦これタイマー](https://itunes.apple.com/jp/app/shiptimer/id
 
 * ダウンロードした`ShipTimerForKCV.zip`ファイルを展開し作成された`ShipTimerForKCV`フォルダの`Plugins`配下にある`ShipTimerForKCV.dll`を  
 KanColleViewerの`Plugins`ディレクトリに移動してください。
+<img src="https://raw.githubusercontent.com/hkmySoft/img/master/Install_01.png" width="640" height="151" alt="Install_01">
+
 * 展開された`ShipTimerForKCV`フォルダの直下にある、以下のDLLを **すべて** KanColleViewer.exeと同じディレクトリに移動してください。(一つでも足りないと動作しません。)
  * `AWSSDK.dll`
  * `BouncyCastle.Crypto.dll`
@@ -39,6 +41,7 @@ KanColleViewerの`Plugins`ディレクトリに移動してください。
  * `Google.Apis.Plus.v1.dll`
  * `Newtonsoft.Json.dll`
  * `Zlib.Portable.dll`  
+<img src="https://raw.githubusercontent.com/hkmySoft/img/master/Install_02.png" width="640" height="194" alt="Install_02">
 
 ## 使い方
 **必ず先にiPhone側の操作を完了させてください**
