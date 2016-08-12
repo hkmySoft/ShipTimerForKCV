@@ -72,6 +72,9 @@ KanColleViewerの`Plugins`ディレクトリに移動してください。
 1. 「デバイス認証完了」と表示されたら設定は完了です。  
 <img src="https://raw.githubusercontent.com/hkmySoft/img/master/HowToUse_13.png" border="0" alt="HowToUse_13" />
 
+1. 使い方についてはこちらの動画もご確認ください。  
+<iframe width="320" height="240" src="https://www.youtube.com/embed/fqgIa1mDlks" frameborder="0" allowfullscreen></iframe>
+
 ## 免責事項
 * 事前通知なしにサービスを止めることがあります。
 * 「認証できません」「タイマーが反映されません」「やり方がわかりません」の漠然とした問い合わせはお答えできません。
