@@ -251,3 +251,5 @@ paket-files/
 .idea/
 *.sln.iml
 /ShipTimerForKCV-1.0.0.zip
+
+.DS_Store
